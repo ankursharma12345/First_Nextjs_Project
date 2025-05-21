@@ -22,6 +22,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/cart/page.jsx", "src/app/login/page.jsx", "src/app/menu/[category]/page.jsx", "src/app/menu/page.jsx", "src/app/orders/page.jsx", "src/app/product/[id]/page.jsx", "src/app/layout.tsx", "src/app/page.jsx", "src/components/CartIcon.jsx", "src/components/CountDown.jsx", "src/components/Featured.jsx", "src/components/Footer.jsx", "src/components/Menu.jsx", "src/components/Navbar.jsx", "src/components/Notification.jsx", "src/components/Offer.jsx", "src/components/Price.jsx", "src/components/Slider.jsx", "src/components/data.jsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/cart/page.jsx", "src/app/login/page.jsx", "src/app/menu/[category]/page.jsx", "src/app/menu/page.jsx", "src/app/orders/page.jsx", "src/app/product/[id]/page.jsx", "src/app/layout.jsx", "src/app/page.jsx", "src/components/CartIcon.jsx", "src/components/CountDown.jsx", "src/components/Featured.jsx", "src/components/Footer.jsx", "src/components/Menu.jsx", "src/components/Navbar.jsx", "src/components/Notification.jsx", "src/components/Offer.jsx", "src/components/Price.jsx", "src/components/Slider.jsx", "src/components/data.jsx"],
   "exclude": ["node_modules"]
 }
