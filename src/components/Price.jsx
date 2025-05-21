@@ -2,18 +2,12 @@
 
 import React, { useEffect, useState } from "react";
 
-type Props = {
-  price: number;
-  id: number;
-  options?: { title: string; additionalPrice: number }[];
-};
-
-const Price = ({ price, options }: Props) => {
+const Price = ({ price, options }) => {
   const [selectedBtn, setSelectedBtn] = useState(0);
   const [total, setTotal] = useState(price);
   const [quantity, setQuantity] = useState(1);
 
-  const handleClick = (e: React.MouseEvent<HTMLButtonElement>) => {
+  const handleClick = (e) => {
     if (e.currentTarget.id === "prev") {
       setQuantity((prev) => (prev === 1 ? 1 : prev - 1));
     } else if (e.currentTarget.id === "next") {
